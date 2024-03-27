@@ -619,6 +619,15 @@ async def mint_nft(account_id, key):
     await minter.mint_nft(contracts)
 
 
+async def mint_phiprotocol(account_id, key):
+    """
+    Mint Phi Protocol NFT
+    """
+
+    phiprotocol = PhiProtocol(account_id, key)
+    await phiprotocol.mint()
+
+
 async def mint_zkstars(account_id, key):
     """
     Mint ZkStars NFT

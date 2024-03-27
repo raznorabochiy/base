@@ -23,6 +23,7 @@ from .zkstars import ZkStars
 from .rai import Rai
 from .safe import GnosisSafe
 from .nfts2me import Minter
+from .phiprotocol import PhiProtocol
 from .dmail import Dmail
 from .swap_tokens import SwapTokens
 from .multiswap import Multiswap

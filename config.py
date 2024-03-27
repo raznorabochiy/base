@@ -84,6 +84,9 @@ with open("data/abi/zerius/abi.json", "r") as file:
 with open("data/abi/nft2me/abi.json", "r") as file:
     NFTS2ME_ABI = json.load(file)
 
+with open("data/abi/phiprotocol/abi.json", "r") as file:
+    PHI_PROTOCOL_ABI = json.load(file)
+
 with open("data/abi/dmail/abi.json", "r") as file:
     DMAIL_ABI = json.load(file)
 
@@ -185,3 +188,5 @@ SAFE_CONTRACT = "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
 ZERIUS_CONTRACT = "0x178608ffe2cca5d36f3fc6e69426c4d3a5a74a41"
 
 DMAIL_CONTRACT = "0x47fbe95e981C0Df9737B6971B451fB15fdC989d9"
+
+PHI_PROTOCOL_CONTRACT = "0xc649989246faa59bbefa7c65551cc4461e823320"
